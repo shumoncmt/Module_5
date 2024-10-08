@@ -47,3 +47,17 @@ function cube ($n){
     return $n*$n*$n;
 }
 echo "Cube of 10 is " . cube(10);
+echo "\n";
+function addNumber($x, $y){
+        $sum = $x + $y;
+        echo "Sum of two Number is = $sum \n";
+}
+addNumber(100,200);
+
+//Subtraction Two Number
+
+function subNumber ($a, $b){
+    $diff = $a - $b;
+    echo "Difference Between Two Number is $diff";
+}
+subNumber(5000, 4000);
