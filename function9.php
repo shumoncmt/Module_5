@@ -14,10 +14,10 @@
 
 //PHP Arguments
 
-function argumentsPs($name){
-    echo "Hello $name \n";
+function argumentsPs($name, $age){
+    echo "Hello $name  and $age\n";
 }
-argumentsPs("Abir");
-argumentsPs("Shakil");
-argumentsPs("Shumon");
-argumentsPs("Rajib");
+argumentsPs("Abir", "52");
+argumentsPs("Shakil", "20");
+argumentsPs("Shumon", "66");
+argumentsPs("Rajib", "63");
