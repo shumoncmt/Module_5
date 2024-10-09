@@ -44,5 +44,5 @@ function matching ($userName, $password){
 function login(){
     echo "Login successful";
 }
-loginUser("", "");
+loginUser("abc", "123");
 
