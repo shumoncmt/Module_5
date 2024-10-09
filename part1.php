@@ -35,11 +35,11 @@ function addFour(){
      echo "\n";
 
 }
-function addfive(){
+function addFive(){
   global $a, $b , $c;
     echo $a +$b +$c +10 +50;
 }
 addTwo();
 addThree();
 addFour();
-addfive();
+addFive();
